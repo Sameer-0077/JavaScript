@@ -44,3 +44,14 @@ console.log(Object.values(User));
 console.log(Object.entries(User));
 
 
+// ----------------------------------Desturcturing---------------------------------
+
+const course = {
+    course_name: "Js in hindi",
+    course_price: "999",
+    course_instrunctor: "Hitesh Choudhary",
+    cousre_validity: "1 year"
+}
+
+const {course_instrunctor:instructor} = course
+console.log(instructor); 
