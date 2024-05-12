@@ -55,3 +55,10 @@ function handleObject(anyObject){
     console.log(`Username is ${anyObject.userName} and location is ${anyObject.location}`)
 }
 handleObject(User)
+
+function returnSecondValue(arr){
+    return arr[1]
+}
+
+const arr1 = [100,200,400,600]
+console.log(returnSecondValue(arr1));
